@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        
+        <div>
+            <img id="topPage" style="float:right;border:1px solid black" src="../imgs/ITI_logo.png" width="250px" height="70">
+        </div>  
+        <div>
+            <ul class="n">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./roadMap.html">Road Map</a></li>
+                <li><a href="#">Registration Form</a></li>
+                <li><a href="HTTPS://WWW.ITI.GOV.EG">Contact</a></li>
+         </ul>
+        </div>
+        <div>
+            <form action="./file.php" method="POST">
+                <h2>Register - Create Account</h2>
+                <p>Field marked with <span class="span-1">*</span> ar compulsory fields</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label><span class="s-2">*</span>Your Name</label></td>
+                            <td><input type="text" name="name" size="40" required /></td>
+                        </tr>
+                        <tr>
+                            <td><label><span class="s-2">*</span>E-Mail ID</label></td>
+                            <td><input type="email" name="name" size="50" required /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Alternative E-mail ID</label></td>
+                            <td><input type="email" name="name" size="50" /></td>
+                        </tr>
+                        <tr>
+                            <td><label>Your Phone</label></td>
+                            <td>
+                                <p>Country Code - City Code - Phone Number</p>
+                                <input type="text" name="countryCode" size="8" /> -
+                                <input type="text" name="cityCode" size="5" /> -
+                                <input type="text" name="phoneNumber" size="18" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Mobile Phone</label></td>
+                            <td>
+                                <input type="text" name="mobilePhone" size="40" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label><span class="s-2">*</span>Your Postal Address</label></td>
+                            <td ><textarea type="text" name="name" rows="4" cols="45" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label><span class="s-2">*</span>Country</label></td>
+                            <td>
+                                <select name="country" required>
+                                    <option value="" selected disabled>------------------------------- Select One -----------------------------</option>
+                                    <option value="eg">Egypty</option>
+                                    <option value="uk">United Kingdom</option>
+                                    <option value="usa">United States of amedica</option>
+                                    <option value="uae">United Arab Emirates</option>
+                                    <!-- and many others -->
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label><span class="s-2">*</span>Password</label></td>
+                            <td ><input type="text" name="password" size="30" required /></td>
+                        </tr>
+                        <tr>
+                            <td><label><span class="s-2">*</span>Re-Enter Password</label></td>
+                            <td ><input type="text" name="passwordConfirm" size="30" required /></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td >
+                                <input type="checkbox" name="agreed" required /> 
+                                I accept the <a href="#" >Terms of Use</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td >
+                                <input type="submit" value="Continue &gt;&gt;" /> 
+                                <input type="reset" value="Reset" /> 
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+
+        </div>
+
+        <hr>
+        <center>
+            <font color="19456b">
+                <p><b>Copyright 2021 by Noha Salah &reg;. All Rights Reserved.</b></p>
+            </font>
+        </center>  
+    </body>
+</html>

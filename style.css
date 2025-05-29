@@ -1,0 +1,74 @@
+.n {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        height: 72px;
+    }
+
+.n li {
+            float: left;
+      }
+
+.n li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 30px 16px;
+            text-decoration: none;
+        }
+
+/* Change the link color to #111 (black) on hover */
+.n li a:hover {
+                 background-color:c70039;
+              }
+
+.first {
+    display:inline-block;
+    width: 48%;
+    height: 300px;
+    /* border: 1px blue solid; */
+    align-content: center;
+    padding: 10px;
+    /* border:1px solid red; */
+}
+
+form {
+    font-family: sans-serif;
+    background-color: ghostwhite;
+    border: 5px solid  rgb(213, 231, 187);
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+form > h2 {
+    color: rgb(128, 163, 79);
+}
+
+form > p {
+    border: 1px dashed  rgb(150, 206, 71);
+    background-color: rgb(213, 231, 187);
+}
+
+.s-2 {
+    color: red;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+}
+
+tbody td:first-child {
+    background-color: rgb(213, 231, 187);
+    text-align: end;
+    width: 35%;
+}
+
+
